@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanShop.Common", "QuanShop.Common\QuanShop.Common.csproj", "{493DCC27-1E7A-441C-938E-7D197C47A8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanShop.Model", "QuanShop.Model\QuanShop.Model.csproj", "{3E58550B-E094-4826-96DC-8F29C4E8AAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanShop.Data", "QuanShop.Data\QuanShop.Data.csproj", "{E5F2A3C8-3625-4B94-AD7A-5228E3DB70D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanShop.Service", "QuanShop.Service\QuanShop.Service.csproj", "{E56A3636-990E-4F45-8105-A3B15C209C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanShop.UnitTest", "QuanShop.UnitTest\QuanShop.UnitTest.csproj", "{2EE5DE7B-11C6-454D-8151-ACAC267B7619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanShop.Web", "QuanShop.Web\QuanShop.Web.csproj", "{30DC1DA2-4F75-4836-8B66-8EBBCEF27AD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493DCC27-1E7A-441C-938E-7D197C47A8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493DCC27-1E7A-441C-938E-7D197C47A8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493DCC27-1E7A-441C-938E-7D197C47A8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493DCC27-1E7A-441C-938E-7D197C47A8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E58550B-E094-4826-96DC-8F29C4E8AAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E58550B-E094-4826-96DC-8F29C4E8AAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E58550B-E094-4826-96DC-8F29C4E8AAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E58550B-E094-4826-96DC-8F29C4E8AAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F2A3C8-3625-4B94-AD7A-5228E3DB70D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F2A3C8-3625-4B94-AD7A-5228E3DB70D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F2A3C8-3625-4B94-AD7A-5228E3DB70D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F2A3C8-3625-4B94-AD7A-5228E3DB70D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56A3636-990E-4F45-8105-A3B15C209C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56A3636-990E-4F45-8105-A3B15C209C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56A3636-990E-4F45-8105-A3B15C209C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56A3636-990E-4F45-8105-A3B15C209C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE5DE7B-11C6-454D-8151-ACAC267B7619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE5DE7B-11C6-454D-8151-ACAC267B7619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE5DE7B-11C6-454D-8151-ACAC267B7619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE5DE7B-11C6-454D-8151-ACAC267B7619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DC1DA2-4F75-4836-8B66-8EBBCEF27AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DC1DA2-4F75-4836-8B66-8EBBCEF27AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DC1DA2-4F75-4836-8B66-8EBBCEF27AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DC1DA2-4F75-4836-8B66-8EBBCEF27AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F388EBAB-E000-480F-9089-E1D7B0EE6E8D}
+	EndGlobalSection
+EndGlobal
