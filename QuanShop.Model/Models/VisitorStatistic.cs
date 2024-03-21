@@ -8,12 +8,11 @@ namespace QuanShop.Model.Models
     public class VisitorStatistic
     {
         [Key]
-        public int ID { get; set; }
+        public Guid ID { get; set; }
 
-        [Required]
         public DateTime VisitedDate { get; set; }
 
-        [Required]
+        [MaxLength(50)]
         public string IPAddress { get; set; }
     }
 }

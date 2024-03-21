@@ -1,23 +1,40 @@
-﻿using QuanShop.Model.Abstract;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace QuanShop.Model.Models
 {
     [Table("SupportOnlines")]
-    public class SupportOnline : Auditable
+    public class SupportOnline
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
 
-        public string? Department { get; set; }
-        public string? Skype { get; set; }
-        public string? Mobile { get; set; }
-        public string? Email { get; set; }
-        public string? Yahoo { get; set; }
-        public string? Facebook { get; set; }
+        [MaxLength(50)]
+        public string Department { get; set; }
+
+        [MaxLength(50)]
+        public string Skype { get; set; }
+
+        [MaxLength(50)]
+        public string Mobile { get; set; }
+
+        [MaxLength(50)]
+        public string Email { get; set; }
+
+        [MaxLength(50)]
+        public string Yahoo { get; set; }
+
+        [MaxLength(50)]
+        public string Facebook { get; set; }
+
+        [MaxLength(50)]
+        public bool status { get; set; }
+
+        public int? DisplayOrder { get; set; }
     }
 }
